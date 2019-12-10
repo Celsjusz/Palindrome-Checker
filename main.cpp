@@ -2,7 +2,6 @@
 #include <string>
 #include <algorithm>
 
-
 int main(int argc, char* argv[])
 {
 	if (argc == 1) {
@@ -48,6 +47,4 @@ int main(int argc, char* argv[])
 	}
 
 	std::cout << "\"" << argv[1] << "\" is " << (isPalindrome ? "" : "not ") << "a palindrome.\n";
-
-	return 0;
 }
